@@ -2,7 +2,7 @@
 dc=read.table("cal_sorted.csv", header = T, sep = ",")
 summary(dc)
 
-#find correlations gll
+#find correlations
 cor(dc[,c(3:5)])
 cor(dc[,c(6,7)])
 cor(dc[,c(8,9,10)])
